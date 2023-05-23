@@ -13,10 +13,27 @@ img{
     height: 30px;
 }
 
-.bgColor{
-    background-color: rgb(81, 77, 77);
+.nav-item, .nav-item a, h2{
+    color:white;
+}
+
+a:hover, a:active{
+    color: #E4A11B !important;
 }
 
 .d{
     list-style-type: none;
+}
+
+.soru{
+    text-align: center;
+    margin-top: 3%;
+}
+
+.dropdown-item{
+    color: black;
+}
+
+h2{
+    color: #E4A11B;
 }
