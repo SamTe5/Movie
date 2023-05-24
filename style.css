@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .bgImage{
     background-image: url(images/back.jpg);
@@ -22,7 +22,7 @@ img{
 }
 
 a:hover, a:active{
-    color: #E4A11B !important;
+    color: red!important;
 }
 
 .d{
@@ -39,7 +39,7 @@ a:hover, a:active{
 }
 
 h2{
-    color: #E4A11B;
+    color: red;
 }
 
 .topContent{
@@ -94,15 +94,18 @@ h2{
     
 }
 
+
 .content span img:hover{
     transform: translateY(30px) scale(1.2);
+    
+    
 }
 
 
 .pAd{
     width: 80%;
     position: absolute;
-    color: #E4A11B;
+    color: white;
     text-align: center;
     margin-top: 5%;
     
@@ -115,4 +118,33 @@ h2{
     text-align: center;
     margin-top: 55%;
     font-size: small;
+}
+
+
+.myBox{
+    border-bottom: 1px solid rgb(69, 68, 67);
+}
+
+.myBox span a{
+    color: rgb(69, 68, 67);
+    text-decoration: none;
+    margin-left: 5%;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.movieBox{
+    width: 200px;
+    height: 300px;
+    
+    
+}
+
+.movieBoxImg{
+    width: 100%;
+    height: 200px;
+}
+
+.border{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
