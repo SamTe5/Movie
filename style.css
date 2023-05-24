@@ -90,8 +90,14 @@ h2{
     object-fit: cover;
     border-radius: 20px;
     transition: 1.5s;
+    cursor: pointer;
     
 }
+
+.content span img:hover{
+    transform: translateY(30px) scale(1.2);
+}
+
 
 .pAd{
     width: 80%;
