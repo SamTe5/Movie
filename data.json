@@ -34,5 +34,23 @@
         "imdb":"9.2",
         "yil":"2018",
         "img":"https://images.unsplash.com/photo-1565024144485-d0076966fe6d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1031&q=80"
+    },
+    {
+        "adi":"127 Hours",
+        "imdb":"9.2",
+        "yil":"2018",
+        "img":"https://images.unsplash.com/photo-1682905926517-6be3768e29f0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+    },
+    {
+        "adi":"Batman",
+        "imdb":"8.3",
+        "yil":"2020",
+        "img":"https://images.unsplash.com/photo-1531259683007-016a7b628fc3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+    },
+    {
+        "adi":"Prison",
+        "imdb":"9.2",
+        "yil":"2023",
+        "img":"https://images.unsplash.com/photo-1593006289292-82735982d15d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=755&q=80"
     }
 ]

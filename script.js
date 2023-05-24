@@ -6,7 +6,13 @@ fetch("data.json")
         sayac++
         return`
         
-        <span class="a" style="--i:${sayac};"><img class="i" src="${element.img}" alt="resim"></span>
+        <span class="a" style="--i:${sayac};">
+        <img class="i" src="${element.img}" alt="resim">        
+        <p class="pAd">${element.adi}</p>
+        <p class="pBilgi">İmdb:${element.imdb}  Yılı:${element.yil}</p>
+        
+        
+        </span>
 
         
         `
