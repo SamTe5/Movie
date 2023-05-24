@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 .bgImage{
     background-image: url(images/back.jpg);
@@ -106,5 +107,6 @@ h2{
     position: absolute;
     color: white;
     text-align: center;
-    margin-top: 50%;
+    margin-top: 55%;
+    font-size: small;
 }

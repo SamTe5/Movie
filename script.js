@@ -9,7 +9,7 @@ fetch("data.json")
         <span class="a" style="--i:${sayac};">
         <img class="i" src="${element.img}" alt="resim">        
         <p class="pAd">${element.adi}</p>
-        <p class="pBilgi">İmdb:${element.imdb}  Yılı:${element.yil}</p>
+        <p class="pBilgi">İmdb:${element.imdb} Yılı:${element.yil}</p>
         
         
         </span>
