@@ -2,11 +2,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Baloo Thambi', cursive;
 }
 .bgImage{
-    background-image: url(images/back.jpg);
+    background-color: #111;
 }
+
+.soru span{
+    animation: glow 2s ease-in-out infinite;
+    font-size: 3rem;
+}
+
+@keyframes glow{
+    0%, 100%{
+        color: white;
+        text-shadow: 0 0 12px lime, 0 0 50px lime, 0 0 100px lime;
+    }
+
+   
+}
+
+
+
+
 
 img{
     max-width: 100%;
@@ -38,9 +56,7 @@ a:hover, a:active{
     color: black;
 }
 
-h2{
-    color: red;
-}
+
 
 .topContent{
     padding-top: 5%;
@@ -146,5 +162,5 @@ h2{
 }
 
 .border{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
