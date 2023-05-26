@@ -27,14 +27,16 @@ fetch("movies.json")
         let movie = value.map(element => {
 
             return `
-        <div class="col-5 mt-3 d-flex justify-content-start">
-        <div class="movieBox border">
-        <img class="movieBoxImg" src="${element.img}" alt="resim">        
+        <div class="col-5 mt-5 d-flex b p-0">
+        <div class="movieBox">
+        <img class="movieBoxImg" src="${element.img}" alt="resim">  
+        <iframe width="560" height="315" src="${element.link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    
         
         </div>
         <div class="icerik">
         <p>${element.adi}</p>
-        <p>İmdb:${element.imdb} Yılı:${element.yil}</p>
+        <p>${element.ozet}</p>
+        <p class="mt-5">İmdb:${element.imdb} Yılı:${element.yil}</p>
         </div>
         
          

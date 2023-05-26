@@ -175,20 +175,23 @@ a:hover, a:active{
 
 .movieBox{
     width: 100%;
-    height: 250px;    
+    height: 250px;
+    position: relative;    
     
 }
 
 .movieBoxImg{
     width: 100%;
     height: 100%;
+    position: absolute;
 }
 
-.border{
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
 
 .icerik{
     width: 100%;
     height: 100%;
+}
+
+.b{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }

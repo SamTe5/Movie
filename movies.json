@@ -3,49 +3,65 @@
         "adi":"Love Story",
         "imdb":"8.7",
         "yil":"2010",
-        "img":"https://images.unsplash.com/photo-1579702493440-8b1b56d47e03?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGZpbG0lMjBtb3ZpZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        "img":"https://images.unsplash.com/photo-1579702493440-8b1b56d47e03?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGZpbG0lMjBtb3ZpZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "ozet":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, corrupti.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur",
+        "link":"https://pixabay.com/tr/videos/deniz-okyanus-mart%C4%B1lar-ku%C5%9Flar-140111/"
     },
     {
         "adi":"Harry Potter",
         "imdb":"8.5",
         "yil":"2014",
-        "img":"https://images.unsplash.com/photo-1598153346810-860daa814c4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80"
+        "img":"https://images.unsplash.com/photo-1598153346810-860daa814c4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80",
+        "ozet":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, corrupti.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur",
+        "link":"https://www.youtube.com/watch?v=gbixw9gbvHQ&pp=ygUUaGFycnkgcG90dGVyIGZyYWdtYW4%3D"
     },
     {
         "adi":"Spider Man",
         "imdb":"8.2",
         "yil":"2015",
-        "img":"https://images.unsplash.com/photo-1521714161819-15534968fc5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+        "img":"https://images.unsplash.com/photo-1521714161819-15534968fc5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+        "ozet":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, corrupti.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur",
+        "link":"https://www.youtube.com/watch?v=KtShUXs8Z_s&pp=ygUSc3BpZGVyIG1hbiBmcmFnbWFu"
     },
     {
         "adi":"Transformers",
         "imdb":"8.8",
         "yil":"2010",
-        "img":"https://images.unsplash.com/photo-1618945524163-32451704cbb8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+        "img":"https://images.unsplash.com/photo-1618945524163-32451704cbb8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+        "ozet":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, corrupti.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur",
+        "link":"https://www.youtube.com/watch?v=0E6YqACCHIs&pp=ygUUdHJhbnNmb3JtZXJzIGZyYWdtYW4%3D"
     },
     {
         "adi":"Dragon",
         "imdb":"8.9",
         "yil":"2013",
-        "img":"https://images.unsplash.com/photo-1514539079130-25950c84af65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80"
+        "img":"https://images.unsplash.com/photo-1514539079130-25950c84af65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80",
+        "ozet":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, corrupti.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur",
+        "link":"https://www.youtube.com/watch?v=BFEWz7RTA9w&pp=ygUOZHJhZ29uIGZyYWdtYW4%3D"
     },
     
     {
         "adi":"127 Hours",
         "imdb":"9.2",
         "yil":"2018",
-        "img":"https://images.unsplash.com/photo-1682905926517-6be3768e29f0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+        "img":"https://images.unsplash.com/photo-1682905926517-6be3768e29f0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+        "ozet":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, corrupti.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur",
+        "link":"https://www.youtube.com/watch?v=lqFOCqI4g_A&pp=ygUPMTI3IHNhYXRmcmFnbWFu"
     },
     {
         "adi":"Batman",
         "imdb":"8.3",
         "yil":"2020",
-        "img":"https://images.unsplash.com/photo-1531259683007-016a7b628fc3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+        "img":"https://images.unsplash.com/photo-1531259683007-016a7b628fc3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+        "ozet":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, corrupti.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur",
+        "link":"https://www.youtube.com/embed/w9MAnKgoyoo"
     },
     {
         "adi":"Prison",
         "imdb":"9.2",
         "yil":"2023",
-        "img":"https://images.unsplash.com/photo-1593006289292-82735982d15d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=755&q=80"
+        "img":"https://images.unsplash.com/photo-1593006289292-82735982d15d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=755&q=80",
+        "ozet":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, corrupti.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur",
+        "link":"https://www.youtube.com/watch?v=ipqARUF38n0&pp=ygUOcHJpc29uIGZyYWdtYW4%3D"
     }
 ]
