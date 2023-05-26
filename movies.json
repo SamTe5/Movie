@@ -1,9 +1,17 @@
 [
     {
+        "adi":"Transformers",
+        "imdb":"8.8",
+        "yil":"2010",
+        "img":"https://images.unsplash.com/photo-1618945524163-32451704cbb8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+        "ozet":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, corrupti.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur",
+        "link":"https://www.youtube.com/watch?v=0E6YqACCHIs&pp=ygUUdHJhbnNmb3JtZXJzIGZyYWdtYW4%3D"
+    },
+    {
         "adi":"Love Story",
         "imdb":"8.7",
         "yil":"2010",
-        "img":"https://images.unsplash.com/photo-1579702493440-8b1b56d47e03?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGZpbG0lMjBtb3ZpZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "img":"https://cdn.pixabay.com/photo/2016/10/06/05/19/couple-1718244_1280.jpg",
         "ozet":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, corrupti.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur",
         "link":"https://pixabay.com/tr/videos/deniz-okyanus-mart%C4%B1lar-ku%C5%9Flar-140111/"
     },
@@ -23,14 +31,7 @@
         "ozet":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, corrupti.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur",
         "link":"https://www.youtube.com/watch?v=KtShUXs8Z_s&pp=ygUSc3BpZGVyIG1hbiBmcmFnbWFu"
     },
-    {
-        "adi":"Transformers",
-        "imdb":"8.8",
-        "yil":"2010",
-        "img":"https://images.unsplash.com/photo-1618945524163-32451704cbb8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
-        "ozet":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, corrupti.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur",
-        "link":"https://www.youtube.com/watch?v=0E6YqACCHIs&pp=ygUUdHJhbnNmb3JtZXJzIGZyYWdtYW4%3D"
-    },
+   
     {
         "adi":"Dragon",
         "imdb":"8.9",
