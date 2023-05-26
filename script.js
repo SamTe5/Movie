@@ -29,8 +29,7 @@ fetch("movies.json")
             return `
         <div class="col-5 mt-5 d-flex b p-0">
         <div class="movieBox">
-        <img class="movieBoxImg" src="${element.img}" alt="resim">  
-        <iframe width="560" height="315" src="${element.link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    
+        <img class="movieBoxImg" src="${element.img}" alt="resim">             
         
         </div>
         <div class="icerik">
