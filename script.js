@@ -27,12 +27,12 @@ fetch("movies.json")
         let movie = value.map(element => {
 
             return `
-        <div class="col-5 mt-5 d-flex b p-0">
+        <div class="col-5 mt-5 d-flex p-0 b">
         <div class="movieBox">
         <img class="movieBoxImg" src="${element.img}" alt="resim">             
         
         </div>
-        <div class="icerik">
+        <div class="icerik text-white">
         <p>${element.adi}</p>
         <p>${element.ozet}</p>
         <p class="mt-5">İmdb:${element.imdb} Yılı:${element.yil}</p>
