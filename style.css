@@ -75,12 +75,10 @@ a:hover, a:active{
     text-align: center;
     margin-top: 3%;
 }
-
-.dropdown-item{
-    color: black;
+ 
+.dropdown-menu li a{
+    color: #111;
 }
-
-
 
 .topContent{
     padding-top: 5%;
@@ -185,6 +183,13 @@ a:hover, a:active{
     height: 100%;
     cursor: pointer;
     
+}
+
+
+
+.movieBoxImg:hover{
+    opacity: 70%;
+    transition: 0.32s;
 }
 
 

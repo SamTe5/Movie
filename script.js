@@ -33,7 +33,7 @@ fetch("movies.json")
         
         </div>
         <div class="icerik text-white">
-        <p>${element.adi}</p>
+        <p style="font-size: larger;">${element.adi}</p>
         <p>${element.ozet}</p>
         <p class="mt-5">İmdb:${element.imdb} Yılı:${element.yil}</p>
         </div>
