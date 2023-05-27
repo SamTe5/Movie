@@ -13,13 +13,22 @@ fetch("movies.json")
         let x = gelenMovieDizi.map(value => {
             return `
             <div class="row mt-5">
-                <div class="col-6">
+                <div class="col-8 text-white">
+                    <h3>${value.yil}</h3>
+                    <p class="mt-5" style="font-size: smaller; color:grey;">GENRE</p>
+                    <p></p>
+                    
+                
 
+                    <h6>Süresi:${value.sure}</h6>
+                    <h6>Yılı:${value.yil}</h6>
                 </div>
-                <div class="col-6"></div>
+                <div class="col-4"></div>
             </div>
         `
         })
+
+        document.querySelector(".contentMovie").innerHTML=x
 
 
         /*BG ımage*/

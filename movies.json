@@ -5,7 +5,8 @@
         "yil":"2010",
         "img":"https://images.unsplash.com/photo-1618945524163-32451704cbb8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
         "ozet":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, corrupti.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur",
-        "link":"https://www.youtube.com/watch?v=0E6YqACCHIs&pp=ygUUdHJhbnNmb3JtZXJzIGZyYWdtYW4%3D"
+        "link":"https://www.youtube.com/embed/x8TbtZb-7sw",
+        "sure":"1sa32dk"
     },
     {   "id":"2",
         "adi":"Love Story",
@@ -13,7 +14,8 @@
         "yil":"2010",
         "img":"https://cdn.pixabay.com/photo/2016/10/06/05/19/couple-1718244_1280.jpg",
         "ozet":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, corrupti.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur",
-        "link":"https://pixabay.com/tr/videos/deniz-okyanus-mart%C4%B1lar-ku%C5%9Flar-140111/"
+        "link":"https://www.youtube.com/embed/x8TbtZb-7sw",
+        "sure":"1sa42dk"
     },
     {   "id":"3",
         "adi":"Harry Potter",
@@ -21,7 +23,8 @@
         "yil":"2014",
         "img":"https://images.unsplash.com/photo-1598153346810-860daa814c4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80",
         "ozet":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, corrupti.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur",
-        "link":"https://www.youtube.com/watch?v=gbixw9gbvHQ&pp=ygUUaGFycnkgcG90dGVyIGZyYWdtYW4%3D"
+        "link":"https://www.youtube.com/embed/x8TbtZb-7sw",
+        "sure":"1sa30dk"
     },
     {   "id":"4",
         "adi":"Spider Man",
@@ -29,7 +32,8 @@
         "yil":"2015",
         "img":"https://images.unsplash.com/photo-1521714161819-15534968fc5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
         "ozet":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, corrupti.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur",
-        "link":"https://www.youtube.com/watch?v=KtShUXs8Z_s&pp=ygUSc3BpZGVyIG1hbiBmcmFnbWFu"
+        "link":"https://www.youtube.com/watch?v=KtShUXs8Z_s&pp=ygUSc3BpZGVyIG1hbiBmcmFnbWFu",
+        "sure":"2sa32dk"
     },
    
     {   "id":"5",
@@ -38,7 +42,8 @@
         "yil":"2013",
         "img":"https://images.unsplash.com/photo-1514539079130-25950c84af65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80",
         "ozet":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, corrupti.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur",
-        "link":"https://www.youtube.com/watch?v=BFEWz7RTA9w&pp=ygUOZHJhZ29uIGZyYWdtYW4%3D"
+        "link":"https://www.youtube.com/watch?v=BFEWz7RTA9w&pp=ygUOZHJhZ29uIGZyYWdtYW4%3D",
+        "sure":"1sa32dk"
     },
     
     {   "id":"6",
@@ -47,7 +52,8 @@
         "yil":"2018",
         "img":"https://images.unsplash.com/photo-1682905926517-6be3768e29f0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
         "ozet":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, corrupti.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur",
-        "link":"https://www.youtube.com/watch?v=lqFOCqI4g_A&pp=ygUPMTI3IHNhYXRmcmFnbWFu"
+        "link":"https://www.youtube.com/watch?v=lqFOCqI4g_A&pp=ygUPMTI3IHNhYXRmcmFnbWFu",
+        "sure":"1sa35dk"
     },
     {   "id":"7",
         "adi":"Batman",
@@ -55,7 +61,8 @@
         "yil":"2020",
         "img":"https://images.unsplash.com/photo-1531259683007-016a7b628fc3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
         "ozet":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, corrupti.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur",
-        "link":"https://www.youtube.com/embed/w9MAnKgoyoo"
+        "link":"https://www.youtube.com/embed/w9MAnKgoyoo",
+        "sure":"1sa12dk"
     },
     {   "id":"8",
         "adi":"Prison",
@@ -63,6 +70,7 @@
         "yil":"2023",
         "img":"https://images.unsplash.com/photo-1593006289292-82735982d15d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=755&q=80",
         "ozet":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, corrupti.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur",
-        "link":"https://www.youtube.com/watch?v=ipqARUF38n0&pp=ygUOcHJpc29uIGZyYWdtYW4%3D"
+        "link":"https://www.youtube.com/watch?v=ipqARUF38n0&pp=ygUOcHJpc29uIGZyYWdtYW4%3D",
+        "sure":"1sa48dk"
     }
 ]
