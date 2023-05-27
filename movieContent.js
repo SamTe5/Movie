@@ -15,13 +15,14 @@ fetch("movies.json")
             <div class="row mt-5">
                 <div class="col-8 text-white">
                     <h3>${value.yil}</h3>
-                    <p class="mt-5" style="font-size: smaller; color:grey;">GENRE</p>
-                    <p></p>
-                    
-                
+                    <p class="mt-5" style="font-size: 12px; color:grey;">GENRE</p>
+                    <p>${value.tur} <span class="ps-5" style="font-size:1.5rem;">${value.imdb}</span><span style="font-size: 12px; color:grey;" class="ps-2">IMDB</span></p>
+                    <p style="font-size:5rem">${value.adi}</p>
+                    <p>${value.ozet}</p>             
 
-                    <h6>Süresi:${value.sure}</h6>
-                    <h6>Yılı:${value.yil}</h6>
+                    <h6 style="font-size: 12px; color:grey;">Süresi:${value.sure}</h6>
+                    <h6 style="font-size: 12px; color:grey;">Yılı:${value.yil}</h6>
+                    <button class="bg-transparent text-white mt-3">Watch The Movie</button>
                 </div>
                 <div class="col-4"></div>
             </div>
