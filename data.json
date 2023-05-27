@@ -1,48 +1,48 @@
 [
-    {
+    {   "id":"1",
         "adi":"Love Story",
         "imdb":"8.7",
         "yil":"2010",
         "img":"https://cdn.pixabay.com/photo/2016/10/06/05/19/couple-1718244_1280.jpg"
     },
-    {
+    {   "id":"2",
         "adi":"Harry Potter",
         "imdb":"8.5",
         "yil":"2014",
         "img":"https://images.unsplash.com/photo-1598153346810-860daa814c4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80"
     },
-    {
+    {   "id":"3",
         "adi":"Spider Man",
         "imdb":"8.2",
         "yil":"2015",
         "img":"https://images.unsplash.com/photo-1521714161819-15534968fc5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
     },
-    {
+    {   "id":"4",
         "adi":"Transformers",
         "imdb":"8.8",
         "yil":"2010",
         "img":"https://images.unsplash.com/photo-1618945524163-32451704cbb8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
     },
-    {
+    {   "id":"5",
         "adi":"Dragon",
         "imdb":"8.9",
         "yil":"2013",
         "img":"https://images.unsplash.com/photo-1514539079130-25950c84af65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80"
     },
     
-    {
+    {   "id":"6",
         "adi":"127 Hours",
         "imdb":"9.2",
         "yil":"2018",
         "img":"https://images.unsplash.com/photo-1682905926517-6be3768e29f0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
     },
-    {
+    {   "id":"7",
         "adi":"Batman",
         "imdb":"8.3",
         "yil":"2020",
         "img":"https://images.unsplash.com/photo-1531259683007-016a7b628fc3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
     },
-    {
+    {   "id":"8",
         "adi":"Prison",
         "imdb":"9.2",
         "yil":"2023",

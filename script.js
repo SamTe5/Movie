@@ -15,8 +15,12 @@ fetch("data.json")
         })
 
         document.querySelector(".content").innerHTML = yazdir.join("")
-
-
+        /*
+        document.querySelector(".i").addEventListener("mouseenter", function() {
+            document.querySelector(".content").style.animationPlayState = "paused";
+          });
+          
+*/
 
     })
 
@@ -29,13 +33,14 @@ fetch("movies.json")
             return `
         <div class="col-5 mt-5 d-flex p-0 b">
         <div class="movieBox">
-        <img class="movieBoxImg" src="${element.img}" alt="resim">             
-        
+            <a href="movieContent.html?id=${element.id}">
+                <img class="movieBoxImg" src="${element.img}" alt="resim">             
+            </a>
         </div>
         <div class="icerik text-white">
-        <p style="font-size: larger;">${element.adi}</p>
-        <p>${element.ozet}</p>
-        <p class="mt-5">İmdb:${element.imdb} Yılı:${element.yil}</p>
+            <p style="font-size: larger;">${element.adi}</p>
+            <p>${element.ozet}</p>
+            <p class="mt-5">İmdb:${element.imdb} Yılı:${element.yil}</p>
         </div>
         
          
