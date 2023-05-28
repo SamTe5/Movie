@@ -48,17 +48,21 @@ fetch("movies.json")
         
 
         buton.addEventListener("click",function(){
-            let fContainer=document.querySelector(".dsplay").style.display="none"
-            let containerim=document.createElement("div")
-            containerim.className="container-fluid"
+            let img=document.createElement("img")
+            img.className="position-absolute"
+            img.style.width = "100%"
+            img.style.height = "100%"
+            img.style.backgroundColor="#111"
             const iframe=document.createElement("iframe")
-            iframe.className="run w-100 vh-100"
+            iframe.className="w-100 vh-100 position-absolute"
             iframe.setAttribute("src",gelenMovie.link)           
-            document.body.appendChild(iframe)
+            document.body.appendChild(img)        
                   
             
 
             
 
         })
+
+        
     })
