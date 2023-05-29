@@ -10,6 +10,7 @@ mcon.appendChild(nav)
 
 let a=document.createElement("img")
 a.setAttribute("src","images/ticket.png")
+
 a.className="logo"
 nav.appendChild(a)
 
