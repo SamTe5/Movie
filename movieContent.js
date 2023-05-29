@@ -48,15 +48,17 @@ fetch("movies.json")
         
 
         buton.addEventListener("click",function(){
-            let img=document.createElement("img")
-            img.className="position-absolute"
-            img.style.width = "100%"
-            img.style.height = "100%"
-            img.style.backgroundColor="#111"
+            let video=document.createElement("div")
+            video.className="position-absolute"
+            video.style.width = "100%"
+            video.style.height = "100%"
+            video.style.backgroundColor="#111"
             const iframe=document.createElement("iframe")
             iframe.className="w-100 vh-100 position-absolute"
             iframe.setAttribute("src",gelenMovie.link)           
-            document.body.appendChild(img)        
+            document.body.appendChild(video)
+            video.appendChild(iframe)       
+            
                   
             
 
