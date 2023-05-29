@@ -56,6 +56,7 @@ let contentMain=document.createElement("div")
 con.appendChild(contentMain)
 contentMain.className="row text-white mt-5 text-center"
 
+
 let colSira=document.createElement("div")
 colSira.className="col-1"
 colSira.innerHTML="NUMBER"
@@ -81,4 +82,32 @@ colViews.className="col-2"
 colViews.innerHTML="VIEWS"
 contentMain.appendChild(colViews)
 
+let rowList=document.createElement("div")
+rowList.className="row listeler text-white text-center"
+con.appendChild(rowList)
 
+/*FETCH */
+
+fetch("movies.json")
+    .then(res => res.json())
+    .then(value => {
+        /*IMDB SIRALAMA */
+         // value'yu news dizisine atayın
+         value.sort((a, b) => parseFloat(b.imdb) - parseFloat(a.imdb))
+        let count=0
+
+        let list = value.slice(0, 10).map(element => {
+            count++
+            return `
+            <div class="col-1">${count}</div>
+            <div class="col-4">${element.adi}</div>
+            <div class="col-4"></div>
+            <div class="col-1">${element.imdb}</div>
+            <div class="col-2">${element.sayi}</div>
+            `;
+        });
+
+        document.querySelector(".listeler").innerHTML = list.join("");
+    });
+
+   
