@@ -64,6 +64,12 @@ img{
     color:white;
 }
 
+.topTenColorActive{
+    color: lime !important;;
+}
+
+
+
 a:hover, a:active{
     color: lime!important;
 }
