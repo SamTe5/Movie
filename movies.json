@@ -8,7 +8,8 @@
         "link":"https://www.youtube.com/embed/x8TbtZb-7sw",
         "sure":"1sa32dk",
         "tur":"ACTİON, COMEDY, FANTASY",
-        "sayi":"34"
+        "sayi":"34",
+        "yonetmen":"Michael Bay"
     },
     {   "id":"2",
         "adi":"Love Story",
@@ -19,7 +20,8 @@
         "link":"https://www.youtube.com/embed/x8TbtZb-7sw",
         "sure":"1sa42dk",
         "tur":"ACTİON, SEX, FANTASY",
-        "sayi":"345"
+        "sayi":"345",
+        "yonetmen":"Arthur Hiller"
     },
     {   "id":"3",
         "adi":"Harry Potter",
@@ -30,7 +32,8 @@
         "link":"https://www.youtube.com/embed/x8TbtZb-7sw",
         "sure":"1sa30dk",
         "tur":"ACTİON, FANTASY",
-        "sayi":"344"
+        "sayi":"344",
+        "yonetmen":"David Yates"
     },
     {   "id":"4",
         "adi":"Spider Man",
@@ -41,7 +44,8 @@
         "link":"https://www.youtube.com/embed/x8TbtZb-7sw",
         "sure":"2sa32dk",
         "tur":"ACTİON, HISTORY, FANTASY",
-        "sayi":"34"
+        "sayi":"34",
+        "yonetmen":"Tobey Maguire"
     },
    
     {   "id":"5",
@@ -53,7 +57,8 @@
         "link":"https://www.youtube.com/embed/x8TbtZb-7sw",
         "sure":"1sa32dk",
         "tur":"MYSTREY, SEX, FANTASY",
-        "sayi":"234"
+        "sayi":"234",
+        "yonetmen":"George R. R. Martin"
     },
     
     {   "id":"6",
@@ -65,7 +70,8 @@
         "link":"https://www.youtube.com/embed/x8TbtZb-7sw",
         "sure":"1sa35dk",
         "tur":"ACTİON, FANTASY, DRAMA",
-        "sayi":"134"
+        "sayi":"134",
+        "yonetmen":"Danny Boyle"
     },
     {   "id":"7",
         "adi":"Batman",
@@ -76,7 +82,8 @@
         "link":"https://www.youtube.com/embed/x8TbtZb-7sw",
         "sure":"1sa12dk",
         "tur":"ACTİON, HORROR, FANTASY",
-        "sayi":"324"
+        "sayi":"324",
+        "yonetmen":"Matt Reeves"
     },
     {   "id":"8",
         "adi":"Prison",
@@ -87,7 +94,8 @@
         "link":"https://www.youtube.com/embed/x8TbtZb-7sw",
         "sure":"1sa48dk",
         "tur":"ACTİON, FANTASY",
-        "sayi":"3466"
+        "sayi":"3466",
+        "yonetmen":"Renny Harlin"
     },
     {   "id":"9",
         "adi":"Harry Potter 3",
@@ -98,7 +106,8 @@
         "link":"https://www.youtube.com/embed/x8TbtZb-7sw",
         "sure":"1sa30dk",
         "tur":"ACTİON, FANTASY",
-        "sayi":"144"
+        "sayi":"144",
+        "yonetmen":"David Yates"
     },
     {   "id":"10",
         "adi":"Spider Man 3",
@@ -109,7 +118,8 @@
         "link":"https://www.youtube.com/embed/x8TbtZb-7sw",
         "sure":"2sa32dk",
         "tur":"ACTİON, HISTORY, FANTASY",
-        "sayi":"855"
+        "sayi":"855",
+        "yonetmen":"Tobey Maguire"
     }
     ,
     {   "id":"11",
@@ -121,7 +131,8 @@
         "link":"https://www.youtube.com/embed/x8TbtZb-7sw",
         "sure":"1sa30dk",
         "tur":"ACTİON, FANTASY",
-        "sayi":"547"
+        "sayi":"547",
+        "yonetmen":"David Yates"
     },
     {   "id":"12",
         "adi":"Spider Man 2",
@@ -132,6 +143,7 @@
         "link":"https://www.youtube.com/embed/x8TbtZb-7sw",
         "sure":"2sa32dk",
         "tur":"ACTİON, HISTORY, FANTASY",
-        "sayi":"64"
+        "sayi":"64",
+        "yonetmen":"Tobey Maguire"
     }
 ]

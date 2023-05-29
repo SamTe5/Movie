@@ -101,7 +101,7 @@ fetch("movies.json")
             return `
             <div class="col-1">${count}</div>
             <div class="col-4">${element.adi}</div>
-            <div class="col-4"></div>
+            <div class="col-4">${element.yonetmen}</div>
             <div class="col-1">${element.imdb}</div>
             <div class="col-2">${element.sayi}</div>
             `;
