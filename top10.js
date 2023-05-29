@@ -3,7 +3,7 @@ conf.className="w-100 vh-100 bgImage"
 let con=document.createElement("div")
 con.className="container pt-2"
 conf.appendChild(con)
-
+/*NAVBAR */
 let nav=document.createElement("navbar")
 nav.className="navbar navbar-expand-lg "
 con.appendChild(nav)
@@ -49,5 +49,36 @@ aItem3.setAttribute("href","#")
 aItem3.innerHTML="Series"
 li3.appendChild(aItem3)
 
+
+/*CONTENT */
+
+let contentMain=document.createElement("div")
+con.appendChild(contentMain)
+contentMain.className="row text-white mt-5 text-center"
+
+let colSira=document.createElement("div")
+colSira.className="col-1"
+colSira.innerHTML="NUMBER"
+contentMain.appendChild(colSira)
+
+let colIsim=document.createElement("div")
+colIsim.className="col-4"
+colIsim.innerHTML="NAMES"
+contentMain.appendChild(colIsim)
+
+let colYonetmen=document.createElement("div")
+colYonetmen.className="col-4"
+colYonetmen.innerHTML="DIRECTORS"
+contentMain.appendChild(colYonetmen)
+
+let colImdb=document.createElement("div")
+colImdb.className="col-1"
+colImdb.innerHTML="IMDB"
+contentMain.appendChild(colImdb)
+
+let colViews=document.createElement("div")
+colViews.className="col-2"
+colViews.innerHTML="VIEWS"
+contentMain.appendChild(colViews)
 
 
