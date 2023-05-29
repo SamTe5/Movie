@@ -23,6 +23,11 @@
    
 }
 
+.rock{
+    width:5%;
+    height: 10%;
+}
+
 .now span{
     animation: glow2 2s ease-in-out infinite;
     font-size: 2.5rem;
