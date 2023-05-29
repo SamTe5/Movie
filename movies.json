@@ -7,7 +7,8 @@
         "ozet":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, corrupti.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur",
         "link":"https://www.youtube.com/embed/x8TbtZb-7sw",
         "sure":"1sa32dk",
-        "tur":"ACTİON, COMEDY, FANTASY"
+        "tur":"ACTİON, COMEDY, FANTASY",
+        "sayi":"34"
     },
     {   "id":"2",
         "adi":"Love Story",
@@ -17,7 +18,8 @@
         "ozet":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, corrupti.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur",
         "link":"https://www.youtube.com/embed/x8TbtZb-7sw",
         "sure":"1sa42dk",
-        "tur":"ACTİON, SEX, FANTASY"
+        "tur":"ACTİON, SEX, FANTASY",
+        "sayi":"345"
     },
     {   "id":"3",
         "adi":"Harry Potter",
@@ -27,7 +29,8 @@
         "ozet":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, corrupti.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur",
         "link":"https://www.youtube.com/embed/x8TbtZb-7sw",
         "sure":"1sa30dk",
-        "tur":"ACTİON, FANTASY"
+        "tur":"ACTİON, FANTASY",
+        "sayi":"344"
     },
     {   "id":"4",
         "adi":"Spider Man",
@@ -37,7 +40,8 @@
         "ozet":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, corrupti.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur",
         "link":"https://www.youtube.com/embed/x8TbtZb-7sw",
         "sure":"2sa32dk",
-        "tur":"ACTİON, HISTORY, FANTASY"
+        "tur":"ACTİON, HISTORY, FANTASY",
+        "sayi":"34"
     },
    
     {   "id":"5",
@@ -48,7 +52,8 @@
         "ozet":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, corrupti.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur",
         "link":"https://www.youtube.com/embed/x8TbtZb-7sw",
         "sure":"1sa32dk",
-        "tur":"MYSTREY, SEX, FANTASY"
+        "tur":"MYSTREY, SEX, FANTASY",
+        "sayi":"234"
     },
     
     {   "id":"6",
@@ -59,7 +64,8 @@
         "ozet":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, corrupti.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur",
         "link":"https://www.youtube.com/embed/x8TbtZb-7sw",
         "sure":"1sa35dk",
-        "tur":"ACTİON, FANTASY, DRAMA"
+        "tur":"ACTİON, FANTASY, DRAMA",
+        "sayi":"134"
     },
     {   "id":"7",
         "adi":"Batman",
@@ -69,7 +75,8 @@
         "ozet":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, corrupti.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur",
         "link":"https://www.youtube.com/embed/x8TbtZb-7sw",
         "sure":"1sa12dk",
-        "tur":"ACTİON, HORROR, FANTASY"
+        "tur":"ACTİON, HORROR, FANTASY",
+        "sayi":"324"
     },
     {   "id":"8",
         "adi":"Prison",
@@ -79,6 +86,7 @@
         "ozet":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, corrupti.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur",
         "link":"https://www.youtube.com/embed/x8TbtZb-7sw",
         "sure":"1sa48dk",
-        "tur":"ACTİON, FANTASY"
+        "tur":"ACTİON, FANTASY",
+        "sayi":"3466"
     }
 ]
