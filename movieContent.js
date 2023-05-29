@@ -57,7 +57,8 @@ fetch("movies.json")
             iframe.className="w-100 vh-100 position-absolute"
             iframe.setAttribute("src",gelenMovie.link)           
             document.body.appendChild(video)
-            video.appendChild(iframe)       
+            video.appendChild(iframe) 
+                
             
                   
             
