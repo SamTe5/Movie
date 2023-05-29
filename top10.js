@@ -39,7 +39,7 @@ li1.appendChild(aItem1)
 
 let aItem2=document.createElement("a")
 aItem2.className="nav-link"
-aItem2.setAttribute("href","#")
+aItem2.setAttribute("href","movies.html")
 aItem2.innerHTML="Movies"
 li2.appendChild(aItem2)
 
