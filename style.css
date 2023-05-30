@@ -1,98 +1,108 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Baloo Thambi', cursive;
 }
-.bgImage{
+
+.bgImage {
     background-color: #111;
-    
+
 }
 
-.soru span{
+.soru span {
     animation: glow 2s ease-in-out infinite;
     font-size: 3rem;
 }
 
-@keyframes glow{
-    0%, 100%{
+@keyframes glow {
+
+    0%,
+    100% {
         color: white;
         text-shadow: 0 0 12px lime, 0 0 50px lime, 0 0 100px lime;
     }
 
-   
+
 }
 
-.rock{
-    width:5%;
-    height: 10%;
-}
 
-.now span{
+
+.now span {
     animation: glow2 2s ease-in-out infinite;
     font-size: 2.5rem;
 }
 
-@keyframes glow2{
-    0%, 100%{
+@keyframes glow2 {
+
+    0%,
+    100% {
         color: white;
         text-shadow: 0 0 12px lime, 0 0 50px lime, 0 0 100px lime;
     }
-    10%, 90%{
-        
+
+    10%,
+    90% {
+
         text-shadow: none;
     }
 
-   
+
 }
 
-.now span:nth-child(2){
+.now span:nth-child(2) {
     animation-delay: 0.25s;
 }
-.now span:nth-child(3){
+
+.now span:nth-child(3) {
     animation-delay: 0.5s;
 }
-.now span:nth-child(4){
+
+.now span:nth-child(4) {
     animation-delay: 0.75s;
 }
 
-img{
+img {
     max-width: 100%;
 }
 
-.logo{
+.logo {
     width: 40px;
     height: 40px;
 }
 
-.nav-item, .nav-item a, h2{
-    color:white;
+.nav-item,
+.nav-item a,
+h2 {
+    color: white;
 }
 
-.topTenColorActive{
-    color: lime !important;;
+.topTenColorActive {
+    color: lime !important;
+    ;
 }
 
 
 
-a:hover, a:active{
-    color: lime!important;
+a:hover,
+a:active {
+    color: lime !important;
 }
 
-.d{
+.d {
     list-style-type: none;
 }
 
-.soru{
+.soru {
     text-align: center;
     margin-top: 3%;
 }
- 
-.dropdown-menu li a{
+
+.dropdown-menu li a {
     color: #111;
 }
 
-.topContent{
+.topContent {
     padding-top: 5%;
     display: flex;
     align-items: center;
@@ -100,7 +110,7 @@ a:hover, a:active{
     overflow: hidden;
 }
 
-.content{
+.content {
     position: relative;
     width: 230px;
     height: 230px;
@@ -109,17 +119,17 @@ a:hover, a:active{
     margin-top: 3%;
 }
 
-@keyframes animate{
-    0%{
+@keyframes animate {
+    0% {
         transform: perspective(1000px) rotateY(0deg);
     }
 
-    100%{
+    100% {
         transform: perspective(1000px) rotateY(-370deg);
     }
 }
 
-.a{
+.a {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -130,7 +140,7 @@ a:hover, a:active{
     transform: rotateY(calc(var(--i)*45deg)) translateZ(370px);
 }
 
-.i{
+.i {
     margin-top: 5%;
     position: absolute;
     width: 80%;
@@ -141,27 +151,27 @@ a:hover, a:active{
     border-radius: 20px;
     transition: 1.5s;
     cursor: pointer;
-    
+
 }
 
 
-.content span img:hover{
+.content span img:hover {
     transform: translateY(30px) scale(1.2);
-    
-    
+
+
 }
 
 
-.pAd{
+.pAd {
     width: 80%;
     position: absolute;
     color: white;
     text-align: center;
     margin-top: 5%;
-    
+
 }
 
-.pBilgi{
+.pBilgi {
     width: 80%;
     position: absolute;
     color: white;
@@ -171,11 +181,11 @@ a:hover, a:active{
 }
 
 
-.myBox{
+.myBox {
     border-bottom: 1px solid white;
 }
 
-.myBox span a{
+.myBox span a {
     color: white;
     text-decoration: none;
     margin-left: 5%;
@@ -183,29 +193,29 @@ a:hover, a:active{
     font-weight: 600;
 }
 
-.movieBox{
+.movieBox {
     width: 100%;
     height: 250px;
-     
-    
+
+
 }
 
-.movieBoxImg{
+.movieBoxImg {
     width: 100%;
     height: 80%;
     cursor: pointer;
-    
+
 }
 
 
 
-.movieBoxImg:hover{
+.movieBoxImg:hover {
     opacity: 70%;
     transition: 0.32s;
 }
 
 
-.icerik{
+.icerik {
     width: 100%;
     height: 100%;
 }

@@ -56,10 +56,7 @@ fetch("movies.json")
 
 
 
-let rock=document.createElement("img")
-rock.className="position-absolute rock"
-rock.setAttribute("src","images/tas.png")
-document.body.appendChild(rock)
+
 
 
 
