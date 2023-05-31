@@ -9,7 +9,8 @@
         "sure":"1sa32dk",
         "tur":"ACTİON, COMEDY, FANTASY",
         "sayi":"34",
-        "yonetmen":"Michael Bay"
+        "yonetmen":"Michael Bay",
+        "cins":"movie"
     },
     {   "id":"2",
         "adi":"Love Story",
@@ -21,7 +22,8 @@
         "sure":"1sa42dk",
         "tur":"ACTİON, SEX, FANTASY",
         "sayi":"345",
-        "yonetmen":"Arthur Hiller"
+        "yonetmen":"Arthur Hiller",
+        "cins":"movie"        
     },
     {   "id":"3",
         "adi":"Harry Potter",
@@ -33,7 +35,8 @@
         "sure":"1sa30dk",
         "tur":"ACTİON, FANTASY",
         "sayi":"344",
-        "yonetmen":"David Yates"
+        "yonetmen":"David Yates",
+        "cins":"movie"
     },
     {   "id":"4",
         "adi":"Spider Man",
@@ -45,7 +48,8 @@
         "sure":"2sa32dk",
         "tur":"ACTİON, HISTORY, FANTASY",
         "sayi":"34",
-        "yonetmen":"Tobey Maguire"
+        "yonetmen":"Tobey Maguire",
+        "cins":"movie"
     },
    
     {   "id":"5",
@@ -58,7 +62,8 @@
         "sure":"1sa32dk",
         "tur":"MYSTREY, SEX, FANTASY",
         "sayi":"234",
-        "yonetmen":"George R. R. Martin"
+        "yonetmen":"George R. R. Martin",
+        "cins":"movie"
     },
     
     {   "id":"6",
@@ -71,7 +76,8 @@
         "sure":"1sa35dk",
         "tur":"ACTİON, FANTASY, DRAMA",
         "sayi":"134",
-        "yonetmen":"Danny Boyle"
+        "yonetmen":"Danny Boyle",
+        "cins":"movie"
     },
     {   "id":"7",
         "adi":"Batman",
@@ -83,7 +89,8 @@
         "sure":"1sa12dk",
         "tur":"ACTİON, HORROR, FANTASY",
         "sayi":"324",
-        "yonetmen":"Matt Reeves"
+        "yonetmen":"Matt Reeves",
+        "cins":"movie"
     },
     {   "id":"8",
         "adi":"Prison",
@@ -95,7 +102,8 @@
         "sure":"1sa48dk",
         "tur":"ACTİON, FANTASY",
         "sayi":"3466",
-        "yonetmen":"Renny Harlin"
+        "yonetmen":"Renny Harlin",
+        "cins":"movie"
     },
     {   "id":"9",
         "adi":"Harry Potter 3",
@@ -107,7 +115,8 @@
         "sure":"1sa30dk",
         "tur":"ACTİON, FANTASY",
         "sayi":"144",
-        "yonetmen":"David Yates"
+        "yonetmen":"David Yates",
+        "cins":"movie"
     },
     {   "id":"10",
         "adi":"Spider Man 3",
@@ -119,7 +128,8 @@
         "sure":"2sa32dk",
         "tur":"ACTİON, HISTORY, FANTASY",
         "sayi":"855",
-        "yonetmen":"Tobey Maguire"
+        "yonetmen":"Tobey Maguire",
+        "cins":"movie"
     }
     ,
     {   "id":"11",
@@ -132,7 +142,8 @@
         "sure":"1sa30dk",
         "tur":"ACTİON, FANTASY",
         "sayi":"547",
-        "yonetmen":"David Yates"
+        "yonetmen":"David Yates",
+        "cins":"movie"
     },
     {   "id":"12",
         "adi":"Spider Man 2",
@@ -143,7 +154,94 @@
         "link":"https://www.youtube.com/embed/x8TbtZb-7sw",
         "sure":"2sa32dk",
         "tur":"ACTİON, HISTORY, FANTASY",
-        "sayi":"64",
-        "yonetmen":"Tobey Maguire"
+        "sayi":"78",
+        "yonetmen":"Renny Harlin",
+        "cins":"movie"
+    },
+    {
+        "id":"13",
+        "adi":"Galaxy",
+        "imdb":"7.2",
+        "yil":"2013",
+        "img":"https://images.unsplash.com/photo-1513704519535-f5c81aa78d0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+        "ozet":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, corrupti.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur",
+        "link":"https://www.youtube.com/embed/x8TbtZb-7sw",
+        "sure":"2 Seasons",
+        "tur":"ACTİON, HISTORY, FANTASY",
+        "sayi":"14",
+        "yonetmen":"Arthur Hiller",
+        "cins":"series"
+    },
+    {
+        "id":"14",
+        "adi":"Thief",
+        "imdb":"8.2",
+        "yil":"2013",
+        "img":"https://images.unsplash.com/photo-1594394874672-239f6deae764?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+        "ozet":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, corrupti.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur",
+        "link":"https://www.youtube.com/embed/x8TbtZb-7sw",
+        "sure":"3 Seasons",
+        "tur":"ACTİON, HISTORY, FANTASY",
+        "sayi":"68",
+        "yonetmen":"Ali C.",
+        "cins":"series"
+    },
+    {
+        "id":"15",
+        "adi":"Narcos",
+        "imdb":"8.6",
+        "yil":"2020",
+        "img":"https://images.unsplash.com/photo-1585246424846-81252e553598?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=857&q=80",
+        "ozet":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, corrupti.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur",
+        "link":"https://www.youtube.com/embed/x8TbtZb-7sw",
+        "sure":"4 Seasons",
+        "tur":"ACTİON, HISTORY, FANTASY",
+        "sayi":"68",
+        "yonetmen":"Henry F. Canse",
+        "cins":"series"
+    },
+    {
+        "id":"16",
+        "adi":"Love",
+        "imdb":"9.6",
+        "yil":"1992",
+        "img":"https://images.unsplash.com/photo-1513279922550-250c2129b13a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+        "ozet":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, corrupti.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur",
+        "link":"https://www.youtube.com/embed/x8TbtZb-7sw",
+        "sure":"2 Seasons",
+        "tur":"ACTİON, HISTORY, FANTASY",
+        "sayi":"648",
+        "yonetmen":"Tobey Maguire",
+        "cins":"series"
+    },
+    {
+        "id":"17",
+        "adi":"Mandorion",
+        "imdb":"9.7",
+        "yil":"2022",
+        "img":"https://images.unsplash.com/photo-1601814933824-fd0b574dd592?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=812&q=80",
+        "ozet":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, corrupti.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur",
+        "link":"https://www.youtube.com/embed/x8TbtZb-7sw",
+        "sure":"1 Seasons",
+        "tur":"ACTİON, HISTORY, FANTASY",
+        "sayi":"748",
+        "yonetmen":"Arcelik hseyu",
+        "cins":"series"
+    },
+    {
+        "id":"18",
+        "adi":"Police",
+        "imdb":"6.7",
+        "yil":"2020",
+        "img":"https://images.unsplash.com/photo-1606022831434-91293aebf25a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1066&q=80",
+        "ozet":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, corrupti.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur",
+        "link":"https://www.youtube.com/embed/x8TbtZb-7sw",
+        "sure":"2 Seasons",
+        "tur":"ACTİON, HISTORY, FANTASY",
+        "sayi":"98",
+        "yonetmen":"David Yates",
+        "cins":"series"
     }
+    
+
 ]

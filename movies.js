@@ -46,7 +46,7 @@ li2.appendChild(aItem2)
 
 let aItem3=document.createElement("a")
 aItem3.className="nav-link"
-aItem3.setAttribute("href","#")
+aItem3.setAttribute("href","series.html")
 aItem3.innerHTML="Series"
 li3.appendChild(aItem3)
 
@@ -59,8 +59,12 @@ mcon.appendChild(moviesDivim)
 fetch("movies.json")
 .then(res=>res.json())
 .then(value=>{
+    console.log(value)
+
+    value = value.filter((eleman) => eleman.cins === "movie")
 
     let moviesim=value.map(element=>{
+
 
         return`
             

@@ -45,7 +45,7 @@ li2.appendChild(aItem2)
 
 let aItem3=document.createElement("a")
 aItem3.className="nav-link"
-aItem3.setAttribute("href","#")
+aItem3.setAttribute("href","series.html")
 aItem3.innerHTML="Series"
 li3.appendChild(aItem3)
 
@@ -63,14 +63,19 @@ colSira.innerHTML="NUMBER"
 contentMain.appendChild(colSira)
 
 let colIsim=document.createElement("div")
-colIsim.className="col-4"
+colIsim.className="col-3"
 colIsim.innerHTML="NAMES"
 contentMain.appendChild(colIsim)
 
 let colYonetmen=document.createElement("div")
-colYonetmen.className="col-4"
+colYonetmen.className="col-3"
 colYonetmen.innerHTML="DIRECTORS"
 contentMain.appendChild(colYonetmen)
+
+let colCins=document.createElement("div")
+colCins.className="col-2"
+colCins.innerHTML="TYPE"
+contentMain.appendChild(colCins)
 
 let colImdb=document.createElement("div")
 colImdb.className="col-1"
@@ -82,6 +87,8 @@ colViews.className="col-2"
 colViews.innerHTML="VIEWS"
 contentMain.appendChild(colViews)
 
+
+
 let rowList=document.createElement("div")
 rowList.className="row listeler text-white text-center"
 con.appendChild(rowList)
@@ -92,7 +99,7 @@ fetch("movies.json")
     .then(res => res.json())
     .then(value => {
         /*IMDB SIRALAMA */
-         // value'yu news dizisine atayın
+         
          value.sort((a, b) => parseFloat(b.imdb) - parseFloat(a.imdb))
         let count=0
 
@@ -100,8 +107,9 @@ fetch("movies.json")
             count++
             return `
             <div class="col-1">${count}</div>
-            <div class="col-4">${element.adi}</div>
-            <div class="col-4">${element.yonetmen}</div>
+            <div class="col-3">${element.adi}</div>
+            <div class="col-3">${element.yonetmen}</div>
+            <div class="col-2">${element.cins}</div>
             <div class="col-1">${element.imdb}</div>
             <div class="col-2">${element.sayi}</div>
             `;
