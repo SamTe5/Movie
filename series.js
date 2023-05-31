@@ -8,10 +8,16 @@ let nav=document.createElement("navbar")
 nav.className="navbar navbar-expand-lg border-bottom"
 con.appendChild(nav)
 
-let a=document.createElement("img")
-a.setAttribute("src","images/ticket.png")
-a.className="logo"
+let a=document.createElement("a")
+a.setAttribute("href","index.html")
 nav.appendChild(a)
+
+let img=document.createElement("img")
+img.setAttribute("src","images/ticket.png")
+img.setAttribute("href","index.html")
+
+img.className="logo"
+a.appendChild(img)
 
 let topIcerik=document.createElement("div")
 topIcerik.className="collapse navbar-collapse"
