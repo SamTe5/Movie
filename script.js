@@ -59,24 +59,37 @@ fetch("movies.json")
 
 
 
-    document.querySelector(".ara").addEventListener("click", function() {
+    document.querySelector(".ara").addEventListener("click", function(event) {
         event.preventDefault()
+        
         fetch("movies.json")
             .then(response => response.json())
             .then(value => {
                 let search = document.querySelector(".search").value.toLowerCase();
+
+                if(search==""){
+                    document.querySelector(".icerikSonuc").innerHTML = "SONUÇ BULUNAMADI"
+                }else{
+                    let sonuc = value.filter((element) => {
+                        return element.adi.toLowerCase().includes(search);
+                    }).map(element => {
+                        return `<div class="mx-2"><a href="movieContent.html?id=${element.id}" style="text-decoration:none; color:white;">${element.adi} (${element.cins})</a></div>`;
+                    });
+                    
+                    
+                    if(sonuc==""){
+                        
+                        document.querySelector(".icerikSonuc").innerHTML = "SONUÇ BULUNAMADI"
+                    }else{
+                        
+                        document.querySelector(".icerikSonuc").innerHTML = sonuc.join("");
+                    }
+                }
                 
-                let sonuc = value.filter((element) => {
-                    return element.adi.toLowerCase().includes(search);
-                }).map(element => {
-                    return `<div style="width: 250px; height: 250px;">${element.adi}</div>`;
-                });
-                console.log(sonuc)
-
                 
 
 
-                document.querySelector(".icerikSonuc").innerHTML = sonuc.join("");
+                
             });
     });
     
