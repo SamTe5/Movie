@@ -5,7 +5,7 @@ con.className="container pt-2"
 conf.appendChild(con)
 /*NAVBAR */
 let nav=document.createElement("navbar")
-nav.className="navbar navbar-expand-lg "
+nav.className="navbar navbar-expand-lg border-bottom"
 con.appendChild(nav)
 
 let a=document.createElement("img")
@@ -107,7 +107,7 @@ fetch("movies.json")
             count++
             return `
             <div class="col-1">${count}</div>
-            <div class="col-3">${element.adi}</div>
+            <div class="col-3"><a href="movieContent.html?id=${element.id}" style="text-decoration:none; color:white;">${element.adi}</a></div>
             <div class="col-3">${element.yonetmen}</div>
             <div class="col-2">${element.cins}</div>
             <div class="col-1">${element.imdb}</div>

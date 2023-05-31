@@ -1,11 +1,11 @@
 let conf= document.querySelector(".sCon")
-conf.className="w-100 vh-100 bgImage"
+conf.className="w-100 bgImage"
 let con=document.createElement("div")
 con.className="container pt-2"
 conf.appendChild(con)
 /*NAVBAR */
 let nav=document.createElement("navbar")
-nav.className="navbar navbar-expand-lg "
+nav.className="navbar navbar-expand-lg border-bottom"
 con.appendChild(nav)
 
 let a=document.createElement("img")
@@ -49,3 +49,46 @@ aItem3.className="nav-link topTenColorActive"
 
 aItem3.innerHTML="Series"
 li3.appendChild(aItem3)
+
+
+/*Burada diziler sıralancak*/
+
+let moviesDivim=document.createElement("div")
+moviesDivim.className="row moviesList"
+con.appendChild(moviesDivim)
+
+fetch("movies.json")
+.then(res=>res.json())
+.then(value=>{
+    console.log(value)
+
+    value = value.filter((eleman) => eleman.cins === "series")
+
+    let seriesim=value.map(element=>{
+
+
+        return`
+            
+            <div class="col-6 mt-5 d-flex p-0 b">
+            <div class="movieBox me-2">
+                <a href="movieContent.html?id=${element.id}">
+                    <img class="movieBoxImg" src="${element.img}" alt="resim">             
+                </a>
+            </div>
+            <div class="icerik text-white">
+                <p style="font-size: larger;">${element.adi}</p>
+                <p>${element.ozet}</p>
+                <p class="mt-4">İmdb:${element.imdb} Yılı:${element.yil}</p>
+            </div>
+            
+             
+            </div> 
+           
+
+
+        `
+        
+    })
+
+    document.querySelector(".moviesList").innerHTML=seriesim.join("")
+})

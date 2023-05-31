@@ -5,7 +5,7 @@ mcon.className="container pt-2"
 mconf.appendChild(mcon)
 /*NAVBAR */
 let nav=document.createElement("navbar")
-nav.className="navbar navbar-expand-lg "
+nav.className="navbar navbar-expand-lg border-bottom"
 mcon.appendChild(nav)
 
 let a=document.createElement("img")
