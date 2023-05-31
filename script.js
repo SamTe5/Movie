@@ -26,7 +26,9 @@ fetch("data.json")
 
 fetch("movies.json")
     .then(response => response.json())
-    .then(value => {
+    .then(value => { 
+        
+
 
         let movie = value.map(element => {
 
@@ -49,10 +51,35 @@ fetch("movies.json")
         })
 
         document.querySelector(".bottomRow").innerHTML = movie.join("")
-
-
-
     })
+
+
+
+
+
+
+
+    document.querySelector(".ara").addEventListener("click", function() {
+        event.preventDefault()
+        fetch("movies.json")
+            .then(response => response.json())
+            .then(value => {
+                let search = document.querySelector(".search").value.toLowerCase();
+                
+                let sonuc = value.filter((element) => {
+                    return element.adi.toLowerCase().includes(search);
+                }).map(element => {
+                    return `<div style="width: 250px; height: 250px;">${element.adi}</div>`;
+                });
+                console.log(sonuc)
+
+                
+
+
+                document.querySelector(".icerikSonuc").innerHTML = sonuc.join("");
+            });
+    });
+    
 
 
 
