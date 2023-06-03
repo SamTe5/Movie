@@ -17,21 +17,22 @@ fetch("data.json")
         document.querySelector(".content").innerHTML = yazdir.join("")
 
         var elements = document.querySelectorAll(".i");
-        elements.forEach(function (element) {
+        elements.forEach(function (element, index) {
             element.addEventListener("mouseenter", function (event) {
                 document.querySelector(".content").style.animationPlayState = "paused";
-                element.addEventListener("click",function(){
-                    window.location.href="movieContent.html?id=${value.id}"
-                })
             });
 
-            element.addEventListener("mouseleave", function(event) {
+            element.addEventListener("click", function (event) {
+                var id = value[index].id; // İlgili elementin index'i kullanarak id'ye erişiyoruz
+                console.log(id)
+                window.location.href = "movieContent.html?id=" + id;
+            });
+
+            element.addEventListener("mouseleave", function (event) {
                 document.querySelector(".content").style.animationPlayState = "running";
-              });
-
-
-
+            });
         });
+
 
 
 
