@@ -21,7 +21,7 @@ fetch("data.json")
             element.addEventListener("mouseenter", function (event) {
                 document.querySelector(".content").style.animationPlayState = "paused";
                 element.addEventListener("click",function(){
-                    
+                    window.location.href="movieContent.html?id=${value.id}"
                 })
             });
 
