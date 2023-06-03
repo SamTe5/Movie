@@ -20,13 +20,15 @@ fetch("data.json")
         elements.forEach(function (element, index) {
             element.addEventListener("mouseenter", function (event) {
                 document.querySelector(".content").style.animationPlayState = "paused";
+
+                element.addEventListener("click", function (event) {
+                    var id = value[index].id
+                    console.log(id)
+                    window.location.href = "movieContent.html?id=" + id;
+                });
             });
 
-            element.addEventListener("click", function (event) {
-                var id = value[index].id; // İlgili elementin index'i kullanarak id'ye erişiyoruz
-                console.log(id)
-                window.location.href = "movieContent.html?id=" + id;
-            });
+            
 
             element.addEventListener("mouseleave", function (event) {
                 document.querySelector(".content").style.animationPlayState = "running";
