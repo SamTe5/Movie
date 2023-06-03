@@ -9,25 +9,40 @@ fetch("data.json")
         <span class="a" style="--i:${sayac};">
         <img class="i" src="${element.img}" alt="resim">        
         <p class="pAd">${element.adi}</p>
-        <p class="pBilgi">İmdb:${element.imdb} Yılı:${element.yil}</p>
-        </span>        
+        <p class="pBilgi">İmdb:${element.imdb} Yılı:${element.yil}</p>        
+        </span>       
         `
         })
 
         document.querySelector(".content").innerHTML = yazdir.join("")
-        /*
-        document.querySelector(".i").addEventListener("mouseenter", function() {
-            document.querySelector(".content").style.animationPlayState = "paused";
-          });
-          
-*/
+
+        var elements = document.querySelectorAll(".i");
+        elements.forEach(function (element) {
+            element.addEventListener("mouseenter", function (event) {
+                document.querySelector(".content").style.animationPlayState = "paused";
+                element.addEventListener("click",function(){
+                    
+                })
+            });
+
+            element.addEventListener("mouseleave", function(event) {
+                document.querySelector(".content").style.animationPlayState = "running";
+              });
+
+
+
+        });
+
+
+
+
 
     })
 
 fetch("movies.json")
     .then(response => response.json())
-    .then(value => { 
-        
+    .then(value => {
+
 
 
         let movie = value.map(element => {
@@ -59,40 +74,40 @@ fetch("movies.json")
 
 
 
-    document.querySelector(".ara").addEventListener("click", function(event) {
-        event.preventDefault()
-        
-        fetch("movies.json")
-            .then(response => response.json())
-            .then(value => {
-                let search = document.querySelector(".search").value.toLowerCase();
+document.querySelector(".ara").addEventListener("click", function (event) {
+    event.preventDefault()
 
-                if(search==""){
-                    document.querySelector(".icerikSonuc").innerHTML = "SONUÇ BULUNAMADI"
-                }else{
-                    let sonuc = value.filter((element) => {
-                        return element.adi.toLowerCase().includes(search);
-                    }).map(element => {
-                        return `<div class="mx-2"><a href="movieContent.html?id=${element.id}" style="text-decoration:none; color:white;">${element.adi} (${element.cins})</a></div>`;
-                    });
-                    
-                    
-                    if(sonuc==""){
-                        
-                        document.querySelector(".icerikSonuc").innerHTML = "SONUÇ BULUNAMADI"
-                    }else{
-                        
-                        document.querySelector(".icerikSonuc").innerHTML = sonuc.join("");
-                    }
+    fetch("movies.json")
+        .then(response => response.json())
+        .then(value => {
+            let search = document.querySelector(".search").value.toLowerCase();
+
+            if (search == "") {
+                document.querySelector(".icerikSonuc").innerHTML = "NO RESULT"
+            } else {
+                let sonuc = value.filter((element) => {
+                    return element.adi.toLowerCase().includes(search);
+                }).map(element => {
+                    return `<div class="mx-2"><a href="movieContent.html?id=${element.id}" style="text-decoration:none; color:white;">${element.adi} (${element.cins})</a></div>`;
+                });
+
+
+                if (sonuc == "") {
+
+                    document.querySelector(".icerikSonuc").innerHTML = "NO RESULT"
+                } else {
+
+                    document.querySelector(".icerikSonuc").innerHTML = sonuc.join("");
                 }
-                
-                
+            }
 
 
-                
-            });
-    });
-    
+
+
+
+        });
+});
+
 
 
 
